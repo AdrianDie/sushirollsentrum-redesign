@@ -422,6 +422,13 @@ section[id]{scroll-margin-top:96px}
   padding-block:clamp(120px,18vw,168px) clamp(40px,6vw,60px);
   background:var(--ink);color:var(--paper);
 }
+.menu-hero--photo{
+  position:relative;background-size:cover;background-position:center;isolation:isolate;
+}
+.menu-hero--photo::before{
+  content:"";position:absolute;inset:0;z-index:-1;
+  background:linear-gradient(180deg, rgba(12,11,7,.55) 0%, rgba(12,11,7,.5) 40%, rgba(10,9,6,.92) 100%);
+}
 .menu-hero h1{font-size:clamp(38px,7vw,64px)}
 .menu-hero p{margin-top:14px;color:#cfc9b8;max-width:56ch}
 .menu-hero .chefs-note{
