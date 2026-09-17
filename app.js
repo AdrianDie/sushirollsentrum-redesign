@@ -209,4 +209,20 @@
     setActive();
     window.addEventListener('scroll', setActive, { passive: true });
   }
+
+  /* ---------- mailto: forms (no backend) ---------- */
+  document.querySelectorAll('form[data-mailto]').forEach(function (form) {
+    form.addEventListener('submit', function (e) {
+      e.preventDefault();
+      var to = form.getAttribute('data-mailto');
+      var subject = form.getAttribute('data-subject') || 'Henvendelse fra sushiroll.no';
+      var lines = [];
+      form.querySelectorAll('[name]').forEach(function (field) {
+        var label = field.getAttribute('data-label') || field.name;
+        if (field.value) lines.push(label + ': ' + field.value);
+      });
+      var body = encodeURIComponent(lines.join('\n'));
+      window.location.href = 'mailto:' + to + '?subject=' + encodeURIComponent(subject) + '&body=' + body;
+    });
+  });
 })();
