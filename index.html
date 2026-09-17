@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="nb">
+<head>
+<!-- SPORING: sett inn kundens gtag/GTM-snippet her ved lansering på ekte domene, se SPORING-KILDE.md -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sushi Roll Sandviken. Japansk sushi-håndverk i Bergen</title>
+<meta name="description" content="Sushi Roll Sandviken ligger i Stølegaten i Bergen. Fersk sashimi, nigiri og kreative makiruller, Kakure Omakase, bordbestilling, takeaway og hjemlevering via Wolt.">
+<meta name="theme-color" content="#18160f">
+<link rel="icon" href="assets/images/favicon.png" type="image/png">
+<link rel="preload" as="font" type="font/woff2" href="assets/fonts/WorkSans-600-latin.woff2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="assets/fonts/WorkSans-400-latin.woff2" crossorigin>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- SPORING: sett inn GTM noscript-iframe her ved lansering på ekte domene, se SPORING-KILDE.md -->
+
+<div class="scrim" id="scrim"></div>
+
+<header class="site-header" id="siteHeader">
+  <div class="container">
+    <a href="index.html" class="brand" aria-label="Sushi Roll Sandviken, til forsiden">
+      <img src="assets/images/logo.webp" alt="Sushi Roll Sandviken" width="150" height="148">
+    </a>
+    <div class="nav-pill">
+      <nav class="main-nav" aria-label="Hovedmeny">
+        <a href="meny.html">Meny</a>
+        <a href="#kakure">Kakure Omakase</a>
+        <a href="#om">Om oss</a>
+        <a href="#anmeldelser">Anmeldelser</a>
+        <a href="#kontakt">Kontakt</a>
+        <a href="catering.html">Catering</a>
+      </nav>
+      <div class="header-social">
+        <a href="https://www.facebook.com/Sushirollsandviken" target="_blank" rel="noopener" aria-label="Sushi Roll Sandviken på Facebook">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M15 8.5h-2c-.55 0-1 .45-1 1V12h3l-.4 3h-2.6v7h-3v-7H7v-3h2v-2.2C9 7.9 10.6 6 13.2 6H15v2.5Z"/></svg>
+        </a>
+        <a href="https://www.instagram.com/sushirollsandviken/" target="_blank" rel="noopener" aria-label="Sushi Roll Sandviken på Instagram">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3.5" y="3.5" width="17" height="17" rx="4.5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1"/></svg>
+        </a>
+      </div>
+      <a class="btn btn--sm nav-cta" href="https://booking.gastroplanner.no/sushi-roll-sandviken/t" target="_blank" rel="noopener">Book bord</a>
+    </div>
+  </div>
+</header>
+
+<nav class="mobile-tabbar" aria-label="Hurtighandlinger" id="mobileTabbar">
+  <a class="mobile-tabbar-item is-primary" href="https://booking.gastroplanner.no/sushi-roll-sandviken/t" target="_blank" rel="noopener">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><rect x="3.5" y="5.5" width="17" height="15" rx="1.5"/><path d="M3.5 10h17M8 3.5v4M16 3.5v4"/></svg>
+    <span>Book bord</span>
+  </a>
+  <button type="button" class="mobile-tabbar-item" id="tabbarOrderTrigger" aria-haspopup="true" aria-expanded="false" aria-controls="tabbarOrderMenu">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M6 8h12l-1 12.5a1.5 1.5 0 0 1-1.5 1.5h-7a1.5 1.5 0 0 1-1.5-1.5L6 8Z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></svg>
+    <span>Bestill</span>
+  </button>
+  <button class="mobile-tabbar-item" id="hamburgerBtn" aria-label="Åpne meny" aria-expanded="false" aria-controls="mobileMenu">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+    <span>Meny</span>
+  </button>
+  <div class="tabbar-order-menu" id="tabbarOrderMenu">
+    <a href="https://wolt.com/en/nor/bergen/restaurant/sushi-roll-sandviken" target="_blank" rel="noopener">Levering</a>
+    <a href="https://order.gastroplanner.no/s/ZCVRJ" target="_blank" rel="noopener">Takeaway</a>
+  </div>
+</nav>
+
+<div class="mobile-menu" id="mobileMenu">
+  <div class="mobile-menu-top">
+    <button class="mobile-close" id="mobileCloseBtn" aria-label="Lukk meny">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" width="18" height="18"><path d="M5 5l14 14M19 5 5 19"/></svg>
+    </button>
+  </div>
+  <nav aria-label="Mobilmeny">
+    <a href="meny.html">Meny</a>
+    <a href="#kakure">Kakure Omakase</a>
+    <a href="#om">Om oss</a>
+    <a href="#anmeldelser">Anmeldelser</a>
+    <a href="#kontakt">Kontakt</a>
+    <a href="catering.html">Catering</a>
+  </nav>
+  <div class="btn-row">
+    <a class="btn btn--on-dark" href="https://booking.gastroplanner.no/sushi-roll-sandviken/t" target="_blank" rel="noopener">Book bord</a>
+    <a class="btn btn--ghost-on-dark" href="https://order.gastroplanner.no/s/ZCVRJ" target="_blank" rel="noopener">Bestill TakeAway</a>
+    <a class="btn btn--ghost-on-dark" href="https://wolt.com/en/nor/bergen/restaurant/sushi-roll-sandviken" target="_blank" rel="noopener">Bestill på Wolt</a>
+  </div>
+  <div class="mobile-social">
+    <a href="https://www.facebook.com/Sushirollsandviken" target="_blank" rel="noopener" aria-label="Facebook">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M15 8.5h-2c-.55 0-1 .45-1 1V12h3l-.4 3h-2.6v7h-3v-7H7v-3h2v-2.2C9 7.9 10.6 6 13.2 6H15v2.5Z"/></svg>
+    </a>
+    <a href="https://www.instagram.com/sushirollsandviken/" target="_blank" rel="noopener" aria-label="Instagram">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3.5" y="3.5" width="17" height="17" rx="4.5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1"/></svg>
+    </a>
+  </div>
+</div>
+
+<section class="hero" id="hero">
+  <div class="hero-media">
+    <video autoplay muted loop playsinline preload="none" poster="assets/images/hero-poster.webp">
+      <source src="assets/video/hero.mp4" type="video/mp4">
+    </video>
+  </div>
+  <div class="hero-inner container">
+    <h1 class="headline" data-muted="2">Japansk sushi-håndverk, midt i Sandviken.</h1>
+    <p class="hero-lead reveal">Fersk sashimi, nigiri og kreative makiruller i en rolig gate. Book bord, bestill takeaway, eller få maten levert rett hjem.</p>
+    <div class="btn-row reveal">
+      <a class="btn btn--on-dark" href="https://booking.gastroplanner.no/sushi-roll-sandviken/t" target="_blank" rel="noopener">Book bord</a>
+      <a class="arrow-link arrow-link--on-dark hero-order-desktop" href="https://order.gastroplanner.no/s/ZCVRJ" target="_blank" rel="noopener">
+        <span class="arrow-circle"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+        Bestill TakeAway
+      </a>
+      <a class="arrow-link arrow-link--on-dark hero-order-desktop" href="https://wolt.com/en/nor/bergen/restaurant/sushi-roll-sandviken" target="_blank" rel="noopener">
+        <span class="arrow-circle"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+        Bestill på Wolt
+      </a>
+    </div>
+  </div>
+  <a href="#chefs" class="hero-scroll arrow-link arrow-link--on-dark" aria-label="Se mer">
+    <span class="arrow-circle"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M6 13l6 6 6-6"/></svg></span>
+  </a>
+</section>
+
+<section class="section" id="meny-preview">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow reveal">Menyen</p>
+      <h2 class="headline" data-muted="2">Fra spicy edamame til flamberte nigiri</h2>
+      <p class="reveal">Small dishes, poke bowls, signature sashimi, nigiri, futo- og special rolls, sett for flere og en liten dessert til slutt. Se hele menyen med priser og allergener.</p>
+    </div>
+    <div class="dish-grid">
+      <div class="dish-card reveal"><img src="assets/images/dish-01.webp" alt="Retter tilberedt hos Sushi Roll Sandviken" loading="lazy" width="528" height="705"></div>
+      <div class="dish-card reveal"><img src="assets/images/dish-02.webp" alt="Retter tilberedt hos Sushi Roll Sandviken" loading="lazy" width="529" height="705"></div>
+      <div class="dish-card reveal"><img src="assets/images/dish-03.webp" alt="Sushirull hos Sushi Roll Sandviken" loading="lazy" width="529" height="705"></div>
+      <div class="dish-card reveal"><img src="assets/images/dish-04.webp" alt="Sushirull hos Sushi Roll Sandviken" loading="lazy" width="529" height="705"></div>
+    </div>
+    <div class="menu-cta reveal">
+      <a class="arrow-link" href="meny.html">
+        <span class="arrow-circle"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+        Se hele menyen
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="section section--ink" id="kakure">
+  <div class="container">
+    <div class="split">
+      <div class="split-media reveal"><img src="assets/images/kakure.webp" alt="Rett fra Kakure Omakase hos Sushi Roll Sandviken" loading="lazy" width="773" height="1030"></div>
+      <div class="split-copy reveal">
+        <p class="eyebrow">Skjult meny</p>
+        <h2 class="headline">Kakure Omakase</h2>
+        <p><strong>Kakure Omakase</strong> er en eksklusiv og skjult matopplevelse der gjestene får servert en personlig meny satt sammen av vår mesterkokk. Hver rett bygger på sesongens beste råvarer, nøye utvalgt for å fremheve naturlige smaker og rene teksturer. Måltidet serveres i en intim og minimalistisk setting som lar deg fokusere fullt på smaksreisen, håndverket og detaljene som gjør japansk gastronomi unik.</p>
+        <p>Opplevelsen følger omakase-tradisjonen der kokken leder deg gjennom et måltid skreddersydd for kvelden. Ingen to opplevelser er helt like, og kombinasjonen av teknikk, kreativitet og respekt for råvarene skaper en atmosfære som er både rolig og raffinert. Kakure Omakase er ikke bare et måltid men en dypere utforskning av japansk kulinarisk kunst som inviterer deg til å smake, lære og oppdage noe nytt for hver servering.</p>
+        <div class="btn-row">
+          <a class="btn btn--on-dark" href="https://booking.gastroplanner.no/kakure_omakse/t" target="_blank" rel="noopener">Bestill bord til Kakure Omakase</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="om">
+  <div class="container">
+    <div class="split reverse">
+      <div class="split-media reveal"><img src="assets/images/about.webp" alt="Kokk hos Sushi Roll Sandviken plasserer en rull" loading="lazy" width="1100" height="1467"></div>
+      <div class="split-copy reveal">
+        <p class="eyebrow">Om oss</p>
+        <h2 class="headline" data-muted="2">Japansk håndverk i Sandviken</h2>
+        <p>Sushi Roll Sandviken ligger i hjertet av en rolig og sjarmerende gate i Bergen og er et sted der japanske mattradisjoner møter moderne smaker. Vi brenner for å skape rene, friske og balanserte retter, med fokus på kvalitet i hver eneste ingrediens. Hos oss finner du alt fra klassiske nigiri og sashimi til kreative makiruller og varme småretter som passer både nye gjester og erfarne sushielskere.</p>
+        <p>Vi ønsker at hvert besøk hos oss skal føles som en liten pause fra hverdagen. Derfor legger vi stor vekt på gode råvarer, hyggelig atmosfære og service som får deg til å føle deg ivaretatt. Enten du vil nyte en rolig middag, bestille takeaway eller oppleve vår eksklusive Kakure Omakase, er målet vårt alltid det samme. Vi vil gi deg en smakfull og minneverdig opplevelse du gjerne kommer tilbake til.</p>
+        <div class="chefs-label">
+          <strong>Kokkens valg</strong>
+          <span>Tilgjengelig kun torsdager, fredager og lørdager. 6-retters meny – 499 kr per person (minimum 2 personer).</span>
+          <a class="arrow-link arrow-link--sm" href="https://booking.gastroplanner.no/sushi-roll-sandviken/t" target="_blank" rel="noopener">
+            <span class="arrow-circle"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+            Book bord
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="anmeldelser">
+  <div class="container">
+    <div class="section-head center">
+      <p class="eyebrow reveal">Anmeldelser</p>
+      <h2 class="headline">Hva gjestene sier</h2>
+      <p class="reveal">Ekte vurderinger fra Google og Tripadvisor.</p>
+    </div>
+    <div class="review-grid">
+      <div class="review-card reveal">
+        <div class="review-top">
+          <span class="review-platform">Google</span>
+          <svg class="stars" viewBox="0 0 110 20" aria-hidden="true">
+            <defs><linearGradient id="fill-google"><stop offset="94%" stop-color="var(--ink)"/><stop offset="94%" stop-color="var(--line-strong)"/></linearGradient></defs>
+            <text x="0" y="16" font-size="18" letter-spacing="2" fill="url(#fill-google)">★★★★★</text>
+          </svg>
+        </div>
+        <p class="review-score"><strong>4,7</strong> av 5</p>
+        <p class="review-count">221 anmeldelser</p>
+        <div class="btn-row">
+          <a class="btn btn--sm" href="https://www.google.com/maps?cid=10781024246180752057&#38;hl=no" target="_blank" rel="noopener">Skriv en anmeldelse</a>
+          <a class="arrow-link arrow-link--sm" href="https://www.google.com/maps?cid=10781024246180752057&#38;hl=no" target="_blank" rel="noopener">
+            <span class="arrow-circle"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+            Se anmeldelser
+          </a>
+        </div>
+      </div>
+      <div class="review-card reveal">
+        <div class="review-top">
+          <span class="review-platform">Tripadvisor</span>
+          <svg class="stars" viewBox="0 0 110 20" aria-hidden="true">
+            <defs><linearGradient id="fill-trip"><stop offset="94%" stop-color="var(--ink)"/><stop offset="94%" stop-color="var(--line-strong)"/></linearGradient></defs>
+            <text x="0" y="16" font-size="18" letter-spacing="2" fill="url(#fill-trip)">★★★★★</text>
+          </svg>
+        </div>
+        <p class="review-score"><strong>4,7</strong> av 5</p>
+        <p class="review-count">30 anmeldelser</p>
+        <div class="btn-row">
+          <a class="btn btn--sm" href="https://www.tripadvisor.com/Restaurant_Review-g190502-d24092539-Reviews-Sushi_Roll_Sandviken-Bergen_Hordaland_Western_Norway.html" target="_blank" rel="noopener">Skriv en anmeldelse</a>
+          <a class="arrow-link arrow-link--sm" href="https://www.tripadvisor.com/Restaurant_Review-g190502-d24092539-Reviews-Sushi_Roll_Sandviken-Bergen_Hordaland_Western_Norway.html" target="_blank" rel="noopener">
+            <span class="arrow-circle"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+            Se anmeldelser
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section--alt" id="bestill">
+  <div class="container">
+    <div class="section-head center">
+      <p class="eyebrow reveal">Bestill</p>
+      <h2 class="headline" data-muted="2">Bord, takeaway eller levert hjem</h2>
+      <p class="reveal">Bordreservasjon og takeaway kan bestilles direkte her på siden. Hjemmelevering kan bestilles via Wolt.</p>
+    </div>
+    <div class="action-grid">
+      <div class="action-card reveal">
+        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><rect x="3.5" y="5.5" width="17" height="15" rx="1.5"/><path d="M3.5 10h17M8 3.5v4M16 3.5v4"/></svg>
+        <h3>Bordreservasjon</h3>
+        <p>Nyt en rolig middag på restauranten i Stølegaten. Book bord til deg og dine.</p>
+        <a class="arrow-link arrow-link--sm" href="https://booking.gastroplanner.no/sushi-roll-sandviken/t" target="_blank" rel="noopener">
+          <span class="arrow-circle"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+          Book bord
+        </a>
+      </div>
+      <div class="action-card reveal">
+        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M6 8h12l-1 12.5a1.5 1.5 0 0 1-1.5 1.5h-7a1.5 1.5 0 0 1-1.5-1.5L6 8Z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></svg>
+        <h3>TakeAway</h3>
+        <p>Bestill mat til egen henting på restauranten, klart når du kommer.</p>
+        <a class="arrow-link arrow-link--sm" href="https://order.gastroplanner.no/s/ZCVRJ" target="_blank" rel="noopener">
+          <span class="arrow-circle"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+          Bestill TakeAway
+        </a>
+      </div>
+      <div class="action-card reveal">
+        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="6" cy="18" r="2.4"/><circle cx="17" cy="18" r="2.4"/><path d="M6 18V9.5h3.5L15 15.5h2M9.5 9.5 12 6h3l2.5 4"/></svg>
+        <h3>Hjemlevering</h3>
+        <p>Få maten levert hjem via Wolt, som regel innen 40 minutter. Følg bestillingen hele veien.</p>
+        <a class="arrow-link arrow-link--sm" href="https://wolt.com/en/nor/bergen/restaurant/sushi-roll-sandviken" target="_blank" rel="noopener">
+          <span class="arrow-circle"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+          Bestill på Wolt
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section--ink" id="kontakt">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow">Kontakt</p>
+      <h2 class="headline">Besøk oss i Sandviken</h2>
+    </div>
+    <div class="contact-grid">
+      <div>
+        <div class="contact-block reveal">
+          <h3>Adresse</h3>
+          <a class="big" href="https://www.google.com/maps/search/?api=1&#38;query=St%C3%B8legaten+12B%2C+5003+Bergen" target="_blank" rel="noopener">Stølegaten 12B, 5003 Bergen</a>
+        </div>
+        <div class="contact-block reveal">
+          <h3>Åpningstider</h3>
+          <span class="big">Mandag til søndag, 14:00 til 21:30</span>
+        </div>
+        <div class="contact-block reveal">
+          <h3>Kontakt</h3>
+          <a class="big" href="tel:+4741334541">413 34 541</a>
+          <a class="sub-link" href="mailto:post@sushirollsandviken.no">post@sushirollsandviken.no</a>
+        </div>
+        <div class="contact-block reveal">
+          <h3>Sosiale medier</h3>
+          <div class="btn-row" style="margin-top:12px">
+            <a class="btn btn--ghost-on-dark btn--sm" href="https://www.facebook.com/Sushirollsandviken" target="_blank" rel="noopener">Facebook</a>
+            <a class="btn btn--ghost-on-dark btn--sm" href="https://www.instagram.com/sushirollsandviken/" target="_blank" rel="noopener">Instagram</a>
+          </div>
+        </div>
+      </div>
+      <div class="map-embed reveal">
+        <iframe src="https://www.google.com/maps?q=St%C3%B8legaten+12B,+5003+Bergen&#38;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Kart til Sushi Roll Sandviken"></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>© <span id="year"></span> Sushi Roll Sandviken</p>
+    <p>Nettside levert av <a href="https://dmarketing.no" target="_blank" rel="noopener">Dietrichs Marketing</a></p>
+  </div>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>

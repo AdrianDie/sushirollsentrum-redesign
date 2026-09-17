@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 150" width="150" height="150">
+  <circle cx="75" cy="75" r="75" fill="#18160f"/>
+  <text x="75" y="62" text-anchor="middle" font-family="'Work Sans', Arial, sans-serif" font-weight="600" font-size="17" letter-spacing="1.5" fill="#faf7ef">SUSHI</text>
+  <text x="75" y="83" text-anchor="middle" font-family="'Work Sans', Arial, sans-serif" font-weight="600" font-size="17" letter-spacing="1.5" fill="#faf7ef">ROLL</text>
+  <text x="75" y="104" text-anchor="middle" font-family="'Work Sans', Arial, sans-serif" font-weight="500" font-size="10.5" letter-spacing="2" fill="#faf7ef">SENTRUM</text>
+</svg>
