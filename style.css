@@ -434,6 +434,7 @@ section[id]{scroll-margin-top:96px}
 }
 .menu-hero h1{font-size:clamp(38px,7vw,64px)}
 .menu-hero p{margin-top:14px;color:#cfc9b8;max-width:56ch}
+.menu-hero .btn-row{margin-top:28px}
 .menu-hero .chefs-note{
   margin-top:26px;padding:16px 18px;border:1px solid rgba(250,247,239,.2);border-radius:var(--radius-sm);
   font-size:14.5px;color:#e7ddc0;max-width:640px;
