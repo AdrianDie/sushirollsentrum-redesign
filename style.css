@@ -407,6 +407,8 @@ section[id]{scroll-margin-top:96px}
 .site-footer .container{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px;font-size:13px}
 .site-footer a{color:#cfc9b8}
 .site-footer a:hover{color:var(--paper)}
+.site-footer a[href*="dmarketing"]{color:var(--paper);font-weight:600;text-decoration:underline;text-underline-offset:3px}
+.site-footer a[href*="dmarketing"]:hover{color:#fff}
 .site-footer .footer-links{display:grid;grid-template-columns:repeat(3,auto);gap:12px 32px;padding-bottom:22px;margin-bottom:22px;border-bottom:1px solid rgba(250,247,239,.1)}
 .footer-links a{font-size:12.5px;text-transform:uppercase;letter-spacing:.06em;font-weight:600}
 @media (max-width:760px){.site-footer .footer-links{grid-template-columns:repeat(2,1fr);gap:14px 20px}}
@@ -494,7 +496,7 @@ section[id]{scroll-margin-top:96px}
   .nav-pill{display:none}
   .mobile-tabbar{display:flex}
   body.menu-open .mobile-tabbar{display:none}
-  body{padding-bottom:76px}
+  body{padding-bottom:100px}
 }
 @media (max-width:600px){
   :root{--section-pad: clamp(52px, 14vw, 84px)}
