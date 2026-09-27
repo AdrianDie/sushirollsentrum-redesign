@@ -209,4 +209,19 @@
     setActive();
     window.addEventListener('scroll', setActive, { passive: true });
   }
+
+  /* ---------- Google Ads conversion tracking ---------- */
+  /* Lenkene åpner i ny fane (target="_blank"), så vi trenger ikke vente
+     med navigering slik Googles standard event-snippet gjør - vi sender
+     bare konverteringen når klikket skjer. */
+  document.addEventListener('click', function (e) {
+    var el = e.target.closest('[data-event="bestill-klikk"]');
+    if (el && typeof gtag === 'function') {
+      gtag('event', 'conversion', {
+        'send_to': 'AW-17305551721/uEUrCNTTrogdEOmG97tA',
+        'value': 1.0,
+        'currency': 'NOK'
+      });
+    }
+  });
 })();
