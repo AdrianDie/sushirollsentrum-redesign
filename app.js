@@ -208,6 +208,16 @@
     };
     setActive();
     window.addEventListener('scroll', setActive, { passive: true });
+
+    /* PC: headeren skyves opp når kategorilinjen når toppen (se .catnav-stuck i style.css) */
+    var categoryNav = document.getElementById('categoryNav');
+    if (categoryNav) {
+      var updateStuck = function () {
+        document.body.classList.toggle('catnav-stuck', categoryNav.getBoundingClientRect().top <= 1);
+      };
+      updateStuck();
+      window.addEventListener('scroll', updateStuck, { passive: true });
+    }
   }
 
   /* ---------- Google Ads conversion tracking ---------- */

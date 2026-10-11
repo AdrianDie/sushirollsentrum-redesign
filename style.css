@@ -491,6 +491,14 @@ section[id]{scroll-margin-top:96px}
 .field input:focus,.field select:focus,.field textarea:focus{outline:2px solid var(--ink);outline-offset:1px}
 .form-grid .btn-row{margin-top:6px}
 
+/* ---------- Menyside på PC: kategorilinjen tar over som header ---------- */
+.site-header{transition:transform .35s ease}
+@media (min-width:861px){
+  .category-nav{top:0}
+  body.catnav-stuck .site-header{transform:translateY(-100%)}
+  .menu-category{scroll-margin-top:90px}
+}
+
 /* ---------- Small screens: header + spacing ---------- */
 @media (max-width:860px){
   .nav-pill{display:none}
