@@ -1,39 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://adriandie.github.io/sushirollsentrum-redesign/</loc>
+    <loc>https://sushiroll.no/</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://adriandie.github.io/sushirollsentrum-redesign/meny/</loc>
+    <loc>https://sushiroll.no/meny/</loc>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://adriandie.github.io/sushirollsentrum-redesign/takeaway-bergen/</loc>
+    <loc>https://sushiroll.no/takeaway-bergen/</loc>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://adriandie.github.io/sushirollsentrum-redesign/overtidsmat-bergen/</loc>
+    <loc>https://sushiroll.no/overtidsmat-bergen/</loc>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://adriandie.github.io/sushirollsentrum-redesign/bedrift/</loc>
+    <loc>https://sushiroll.no/bedrift/</loc>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://adriandie.github.io/sushirollsentrum-redesign/catering-bergen/</loc>
+    <loc>https://sushiroll.no/catering-bergen/</loc>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://adriandie.github.io/sushirollsentrum-redesign/student/</loc>
+    <loc>https://sushiroll.no/student/</loc>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://adriandie.github.io/sushirollsentrum-redesign/om-oss/</loc>
+    <loc>https://sushiroll.no/om-oss/</loc>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://adriandie.github.io/sushirollsentrum-redesign/kontakt/</loc>
+    <loc>https://sushiroll.no/kontakt/</loc>
     <priority>0.6</priority>
   </url>
 </urlset>

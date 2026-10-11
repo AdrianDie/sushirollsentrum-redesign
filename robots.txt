@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://adriandie.github.io/sushirollsentrum-redesign/sitemap.xml
+Sitemap: https://sushiroll.no/sitemap.xml
