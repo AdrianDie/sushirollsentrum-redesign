@@ -127,7 +127,7 @@
 
       var head = document.createElement('div');
       head.className = 'menu-category-head';
-      head.innerHTML = '<h2>' + cat.category + '</h2><span>' + cat.items.length + ' retter</span>';
+      head.innerHTML = '<h2>' + cat.category + '</h2><span>' + cat.items.length + (document.documentElement.lang === 'en' ? ' items' : ' retter') + '</span>';
       container.appendChild(head);
 
       var list = document.createElement('div');

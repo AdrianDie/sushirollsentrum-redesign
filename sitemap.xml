@@ -36,4 +36,12 @@
     <loc>https://sushiroll.no/kontakt/</loc>
     <priority>0.6</priority>
   </url>
+  <url>
+    <loc>https://sushiroll.no/en/</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://sushiroll.no/en/menu/</loc>
+    <priority>0.7</priority>
+  </url>
 </urlset>

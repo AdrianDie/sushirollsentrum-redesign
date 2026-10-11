@@ -15,7 +15,12 @@
 - [Delivery via Wolt](https://wolt.com/nb/nor/bergen/restaurant/sushi-roll-sentrum)
 - [Delivery via Foodora](https://www.foodora.no/restaurant/n24h/sushi-roll-sentrum)
 
-## Pages
+## Pages in English
+
+- [Home (English)](https://sushiroll.no/en/): overview, opening hours, reviews, contact
+- [Menu (English)](https://sushiroll.no/en/menu/): full menu with prices and allergens
+
+## Pages in Norwegian
 
 - [Home](https://sushiroll.no/): overview, opening hours, reviews
 - [Menu](https://sushiroll.no/meny/): full menu with prices and allergens
